@@ -82,8 +82,8 @@ class LagrangeSystem_HillProblem:
 
 def wp3():
     G = 6.67430e-11  # m^3 kg^-1 s^-2, gravitational constant
-    mu1 = 1.9891e30 * G
-    mu2 = 4.4820e11 * G
+    mu1 = 1.9891e+30 * G
+    mu2 = 4.4820e+11 * G
     system3 = LagrangeSystem_CR3BP(
         mu1=mu1,
         mu2=mu2,

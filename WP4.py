@@ -5,11 +5,11 @@ if __name__ == "__main__":
     mu1 = 132712.0 * 1e6 * 1e9  # Sun GM in m^3/s^2
     mu2 = 0.39860 * 1e6 * 1e9  # Earth GM in m^3/s^2
     # Student-no    Reflectivity  |  ----------------------  Initial Conditions ---------------------------------------------------------------
-    #                             |  x              y               z              x_dot           y_dot           z_dot           Reflectivity
-    # 5204968       0.2303        |  0.213947317195 0               0.071828480574 0               -0.698557918092 0               0.2050
+    #                             |  xi                eta       zeta              x_dot           y_dot              z_dot           Reflectivity
+    # 5204968       0.3182        |  0.207123082095    0         0.073055408391    0               -0.734506425404    0               0.2696
 
-    initial_conditions = [0.213947317195, 0, 0.071828480574, 0, -0.698557918092, 0]  # Initial conditions for the orbit
-    reflectivity = 0.2050  # Reflectivity value
+    initial_conditions = [0.207123082095, 0, 0.073055408391, 0, -0.734506425404, 0]  # Initial conditions for the orbit
+    reflectivity = 0.2696  # Reflectivity value
 
 fig = plt.figure(figsize=(12, 10))
 

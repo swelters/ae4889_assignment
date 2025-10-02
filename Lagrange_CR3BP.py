@@ -137,9 +137,9 @@ class LagrangeSystem_CR3BP:
 
 def wp1():
     G = 6.67430e-11  # m^3 kg^-1 s^-2, gravitational constant
-    mu1 = 1.9891e30 * G  # Mass of the Sun in kg * G
-    mu2 = 6.0477e24 * G  # Mass of the Earth in kg * G
-
+    mu1 = 1.9891e+30 * G  # Mass of the Sun in kg * G
+    mu2 = 6.0477e+24 * G  # Mass of the Earth in kg * G
+    
     system_simple = LagrangeSystem_CR3BP(
         mu1=mu1,
         mu2=mu2,
@@ -197,8 +197,8 @@ def wp1():
 
 def wp2():
     G = 6.67430e-11  # m^3 kg^-1 s^-2, gravitational constant
-    mu1 = 1.9891e30 * G
-    mu2 = 6.0477e24 * G
+    mu1 = 1.9891e+30 * G
+    mu2 = 6.0477e+24 * G
 
     particle_d = 0.1
     particle_rho = 1200  # kg/m^3
